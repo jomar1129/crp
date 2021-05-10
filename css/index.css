@@ -1,0 +1,383 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(17, 17, 17);
+  background-image: url("/resources/images/weqee.png");
+  background-size: auto;
+}
+
+.container {
+  position: relative;
+}
+
+nav {
+  /* margin: 0 500px; */
+  position: relative;
+  margin: 0 40px;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-img > a > img {
+  height: 100px;
+  margin-left: 20px;
+}
+
+.nav-list > ul > li {
+  list-style: none;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.nav-list > ul > li > a {
+  text-decoration: none;
+  font-size: 15px;
+  margin-right: 20px;
+  border: white solid 2px;
+  padding: 10px;
+  color: white;
+  transition: all 0.5s ease-in;
+}
+
+.nav-list > ul > li > a:hover {
+  background-color: rgba(128, 128, 128, 0.582);
+}
+
+/* video */
+
+.right {
+  width: 40%;
+}
+
+.left {
+  width: 60%;
+}
+
+.banner {
+  display: flex;
+}
+
+.video-banner {
+  margin: 10px 10px;
+}
+
+.video-banner > video {
+  width: 100%;
+}
+
+.joinus-banner {
+  margin: 10px 10px;
+  /* background-image: url('/resources/images/Cartel_X_Stream_Raiders_Loading_Screen.png'); */
+  background-size: cover;
+  width: 50%;
+  height: 425px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.joinus-banner button {
+  color: white;
+  position: relative;
+  margin-bottom: 30px;
+  height: 100px;
+  width: 450px;
+  border: none;
+  background-color: rgba(248, 4, 12, 0.3);
+  font-size: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: gray 2px 2px;
+}
+
+.joinus-banner button .text {
+  font-size: 2rem;
+  margin: 10px;
+  text-transform: uppercase;
+}
+
+.joinus-banner button .description {
+  display: block;
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  font-family: "rubik";
+  opacity: 0.75;
+}
+
+.joinus-banner button:hover {
+  background-color: #7d1d21;
+  transition: all 0.5s ease-in-out;
+  border: white 2px solid;
+}
+
+/* ABOUT */
+
+/* DEPARTMENTS */
+
+.about {
+  text-align: center;
+  color: whitesmoke;
+  text-indent: 50px;
+}
+
+.about p {
+  font-size: 30px;
+}
+
+.about h1 {
+  font-size: 30px;
+  margin: 32px 0px;
+  text-transform: uppercase;
+}
+
+/*card */
+
+.project-heading {
+  margin-top: 32px;
+  text-align: center;
+  color: whitesmoke;
+}
+
+.project-heading h1 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.projects-section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 32px;
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  color: whitesmoke;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 300px;
+  margin: 0 auto;
+  /* background-color: rgba(255, 0, 0, 0.404); */
+  background-color: rgba(245, 245, 245, 0.048);
+  text-align: center;
+}
+
+.card img {
+  /* Add shadows to create the "card" effect */
+  margin-bottom: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 100%;
+  height: 70%;
+}
+
+.card h4 {
+  margin-bottom: 10px;
+}
+
+.card p {
+  margin-bottom: 10px;
+}
+
+.developers .card img {
+  border-radius: 100%;
+  width: 75%;
+  padding-top: 10px;
+}
+
+.explore-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  height: 50px;
+}
+
+.explore-button button {
+  border: 0;
+  width: 200px;
+  border-radius: 50px;
+  background-color: rgba(248, 4, 12, 0.3);
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+#developers {
+  margin-bottom: 30px;
+}
+
+/* features */
+
+.features {
+  background-color: rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  padding: 10px;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.features .features-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.features article h2 {
+  margin-bottom: 10px;
+}
+
+.features article span {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+.features article {
+  width: 300px;
+  height: 120px;
+  background-color: rgba(248, 4, 12, 0.1);
+  margin-left: 100px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  text-indent: 0;
+  padding: 10px;
+}
+
+/* footer */
+
+.footer {
+  text-align: center;
+  color: white;
+  background-color: rgba(24, 23, 23, 0.753);
+}
+
+/* youtube */
+
+.iframe-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.iframe-container iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.scrollTop {
+  position: fixed;
+  bottom: 800px;
+  right: 40px;
+  width: 60px;
+  height: 60px;
+  background: rgba(248, 4, 12, 0.3) url("/resources/images/up.svg");
+  border-radius: 50%;
+  background-size: 40px;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  z-index: 1000000;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.scrollTop.active {
+  bottom: 40px;
+  visibility: visible;
+  opacity: 1;
+}
+
+@media screen and (max-width: 1454px) {
+  nav {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+  }
+  .nav-img img {
+    display: none;
+  }
+
+  .video-banner {
+    display: none;
+  }
+
+  .right {
+    width: 100%;
+  }
+
+  .joinus-banner {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .joinus-banner button {
+    width: 300px;
+  }
+
+  .about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .about p {
+    font-size: 20px;
+  }
+
+  .features {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .features article {
+    margin-left: 0;
+  }
+
+  .footer h2 {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 355px) {
+  nav {
+    margin: 30px auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .about {
+    text-align: center;
+    color: whitesmoke;
+    text-indent: 0px;
+  }
+}
